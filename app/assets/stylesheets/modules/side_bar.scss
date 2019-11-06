@@ -8,13 +8,13 @@
     font-size: 16px;
     height: 100px;
     width: 300px;
-    .header__name{
+    &__name{
       width: 60%;
       padding: 0 0 0 20px ;
       float: left;
       line-height: 100px;
     }
-    .header__lists{
+    &__lists{
       width: 30%;
       float: left;
       .list{
@@ -37,12 +37,12 @@
     overflow-x: scroll;
     .group{
       padding: 20px 20px ;
-      .group__name{
+      &__name{
         font-size: 15px;
         color: #FFFFFF;
         margin-bottom: 5px;
       }
-      .group__message{
+      &__message{
         font-size: 11px;
         color: #FFFFFF;
       }
