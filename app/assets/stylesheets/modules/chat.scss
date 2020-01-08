@@ -4,6 +4,7 @@
     box-sizing: border-box;
     height: 100px;
     padding: 0 40px;
+    
     .left-header {
       float: left;
       &__title {
@@ -36,8 +37,10 @@
   .messages {
     background-color: #FAFAFA;
     box-sizing: border-box;
-    padding: 46px 40px 0;
-    height: calc(100% - 100px - 90px);
+    padding: 46px 40px;
+    height: calc(100vh - 190px);
+    display: block;
+
     .message {
       .upper-message {
         display: flex;
@@ -67,7 +70,9 @@
     background-color: #DDDDDD;
     box-sizing: border-box;
     height: 90px;
-    padding: 20px 50px 20px 40px;
+    padding: 20px 40px;
+    display: block;
+
     &__message {
       border: none;
       float: left;
@@ -91,7 +96,7 @@
       background-color: #38AEF0;
       border: none;
       color: #fff;
-      float: right;
+      float: left;
       font-size: 16px;
       height: 50px;
       margin-left: 15px;
