@@ -40,7 +40,8 @@
     padding: 46px 40px;
     height: calc(100vh - 190px);
     display: block;
-
+    overflow: scroll;
+    
     .message {
       .upper-message {
         display: flex;
